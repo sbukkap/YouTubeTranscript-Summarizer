@@ -5,5 +5,5 @@ For the first time in many years , shredder won his legendary battle against Tur
 his fierce battle but he clutched up in a 1v3 with a dlq sniper in his hand! One shot to the head with the sniper
 and then two smaks to the face with the shotgun  . This battle is really worth a watch
 """
-summary_text = summarization(original_text)[0]['summary_text']
+summary_text = summarization(original_text)[0]['summary_text'] #perform summarization
 print("Summary:", summary_text)

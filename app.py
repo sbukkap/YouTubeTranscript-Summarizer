@@ -4,30 +4,30 @@ from transformers import pipeline
 # define a variable to hold you app
 app = Flask(__name__)
 
-# define your resource endpoints
-@app.route('/home')
+# define your resource endpoints.
+@app.route('/home') 
 def index():
     return render_template('sample1.html')
 @app.route('/verify',methods=['POST','GET'])
 def verify():
     if request.method == 'POST':
-        name = request.form['name']
-        id = name.split("=")[1]
+        name = request.form['name']  #fetch link
+        id = name.split("=")[1] #obtain YT video id.
         return redirect(f"/transcript/{id}")
 @app.route('/transcript/<id>')
 def trancript_summarizer(id):
     transcript = YouTubeTranscriptApi.get_transcript(id)
     result = ''
     for i in transcript:
-        result += ' ' + i['text']
-    summarizer = pipeline("summarization")
+        result += ' ' + i['text'] #converting json dictionary to text format. 
+    summarizer = pipeline("summarization") #initializing pipeline for summarization
     num_iters = int(len(result)/1000)
     summarized_text = []
-    for i in range(0, num_iters + 1):
+    for i in range(0, num_iters + 1): #for loop to operate upon chunks of data
         start = 0
         start = i * 1000
         end = (i + 1) * 1000
-        out = summarizer(result[start:end],min_length = 130)
+        out = summarizer(result[start:end],min_length = 130) 
         out = out[0]
         out = out['summary_text']
         summarized_text.append(out)

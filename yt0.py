@@ -6,7 +6,7 @@ But Walker's death in November 2013 at the age of 40 after a car crash was espec
 The release of "Furious 7" on Friday offers the opportunity for fans to remember -- and possibly grieve again -- the man that so many have praised as one of the nicest guys in Hollywood.
 "He was a person of humility, integrity, and compassion," military veteran Kyle Upham said in an email to CNN.
 Walker secretly paid for the engagement ring Upham shopped for with his bride.
-"We didn't know him personally but this was apparent in the short time we spent with him.
+"We didn't know him personally but this was apdparent in the short time we spent with him.
 I know that we will never forget him and he will always be someone very special to us," said Upham.
 The actor was on break from filming "Furious 7" at the time of the fiery accident, which also claimed the life of the car's driver, Roger Rodas.
 Producers said early on that they would not kill off Walker's character, Brian O'Connor, a former cop turned road racer. Instead, the script was rewritten and special effects were used to finish scenes, with Walker's brothers, Cody and Caleb, serving as body doubles.

@@ -8,7 +8,7 @@ food = [
 ]
 
 @app.route("/")
-@app.route('/also')
+@app.route('/also') #setting page routes.
 def hello():
     return render_template('home.html',l1=food,title='Homepg')
 
